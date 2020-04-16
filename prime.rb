@@ -4,4 +4,4 @@ def prime? (num)
   puts attempts
 end
 
-prime?(26)
+prime?(27)
