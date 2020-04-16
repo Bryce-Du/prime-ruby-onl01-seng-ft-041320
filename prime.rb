@@ -12,3 +12,7 @@ end
 
 puts prime?(27)
 puts prime?(25)
+puts prime?(7)
+puts prime?(2)
+puts prime?(1)
+puts prime?(29)
