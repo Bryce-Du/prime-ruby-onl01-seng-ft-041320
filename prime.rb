@@ -7,3 +7,4 @@ def prime? (num)
 end
 
 puts prime?(27)
+puts prime?(25)
