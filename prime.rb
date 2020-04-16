@@ -1,9 +1,7 @@
 def prime? (num)
   return false if num%2 == 0
   attempts = (3..Integer.sqrt(num)).to_a
-  odds = []
-  attempts.collect do |odd|
-    if odd 
+  odds = attempts.select {|odd| odd %2 == 0}
   puts attempts
 end
 
